@@ -1,31 +1,18 @@
 /* Footer design */
 #footer {
-  color: rgb(204,204,204);
-  background-color: rgb(51,51,51);
+  color: $brand-color;
+  background-color: $gray;
   height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  a {
+    color: $gray-lighter;
+    font-size: 30px;
+    &:hover {
+      color: $yellow;
+    }
+  }
 }
 
-#footer i {
-  color: rgb(204,204,204);
-  font-size: 30px;
-  /* padding: 20px 10px; */
-}
-
-.fa-youtube:hover {
-  color: yellow;
-}
-
-.fa-instagram:hover {
-  color: yellow;
-}
-
-.fa-facebook:hover {
-  color: yellow;
-}
-
-.fa-twitter:hover {
-  color: yellow;
-}
